@@ -1,6 +1,13 @@
 :root {
     background-color: #efefef;
     padding-top: 50px; /* so that the fixed-top nav doesn't overlap with body*/
+    margin-bottom: 60px;
+}
+
+.container {
+  width: auto;
+  max-width: 80%;
+  padding: 0 15px;
 }
 
 header {
@@ -23,4 +30,16 @@ div#cover {
 
 div#cover h1 {
     font-weight:500;
+}
+
+.panel {
+    background-color: #efefef;
+    margin: 1rem 0.5rem;
+    max-width: 32%;
+    min-height: 28rem
+}
+
+.footer {
+    background-color: #dedede;
+    bottom: 0;
 }

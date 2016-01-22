@@ -1,6 +1,13 @@
 :root {
     background-color: #efefef;
-    padding-top: 50px; /* so that the fixed-top nav doesn't overlap with body*/
+    padding: 50px 0; /* so that the fixed-top nav doesn't overlap with body*/
+    margin-bottom: 50px;
+}
+
+.container {
+  width: auto;
+  max-width: 80%;
+  padding: 0 15px;
 }
 
 header {
@@ -16,3 +23,10 @@ header {
 
 /* Job descriptor format */
 .exp-job h3 { display: inline; }
+
+.footer {
+    padding-top: 4rem;
+    color: blue;
+    background-color: #efefef;
+    bottom: 0;
+}

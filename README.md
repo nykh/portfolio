@@ -1,10 +1,10 @@
 portfolio
 =========
 
-Will be hosted at http://web.stanford.edu/~nykh/
+hosted at http://web.stanford.edu/~nykh/
 
 Plan to include
 
-- cv: static bootstrap page
-- projects
-- log on study
+- [x] cv: static bootstrap page
+- [ ] projects
+- [ ] log on study
