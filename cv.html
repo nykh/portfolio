@@ -5,12 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Nicholas Huang :: Portfolio</title>
         <!-- bootstrap -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/cv.css" media="screen">
     </head>
     <body>
 
-    <header class="navbar">
+    <header class="navbar navbar-fixed-top">
         <div class="container">
             <ul class="nav navbar-nav">
                 <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
@@ -24,34 +24,188 @@
     <section id="identification">
         <div class="container">
             <h1>Nicholas Huang</h1>
-            <address class="address">
-                nykh <span class="at">AT</span> stanford <br>
-                nicholas.ykhuang <span class="at">AT</span> Gmail
-            </address>
+            <address>nykh <span class="at">AT</span> stanford <br><address>
+            <address>nicholas.ykhuang <span class="at">AT</span> Gmail</address>
         </div>
     </section>
 
     <section id="education">
-        <section id="institutions">
-        </section>
-        <section id="course-works">
-        </section>
+        <div class="container">
+            <h2>Education</h2>
+            <section id="institutions">
+                <section class="edu-program">
+                    <span class="edu-degree">Master CS</span>,
+                    <span class="edu-grad-date">June 2017</span><br>
+                    <span class="edu-institution">Stanford University</span>
+                </section>
+                <section class="edu-program">
+                    <span class="edu-degree">BS EE with Honor</span>,
+                    <span class="edu-grad-date">May 2015</span><br>
+                    <span class="edu-institution">University of Texas at Austin</span>
+                </section>
+            </section>
+            <section id="course-works">
+            </section>
+        </div>
     </section>
 
     <section id="skills">
     </section>
 
     <section id="honors">
+        <div class="container">
+            <h2>Honors</h2>
+            <table class="table table-striped">
+                <tbody>
+                    <tr>
+                        <td>College Scholar, University of Texas at Austin</td>
+                        <td>2013-15</td>
+                    </tr>
+                    <tr>
+                        <td>T.C. &amp; Grace T. Ho Endowed Scholarship</td>
+                        <td>2013</td>
+                    </tr>
+                    <tr>
+                        <td>Victor L. Hand Endowed Scholarship</td>
+                        <td>2012</td>
+                    </tr>
+                    <tr>
+                        <td>Engineering Scholar</td>
+                        <td>2012</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </section>
 
     <section id="project-lists">
+        <div class="container">
+            <h2>Projects</h2>
+            <table class="table table-striped">
+                <colgroup>
+                    <col></col>
+                    <col style="width: 50%;"></col>
+                    <col></col>
+                </colgroup>
+                <thead>
+                    <tr>
+                        <td>Project Name</td>
+                        <td>Brief Descriptiton</td>
+                        <td>Date of Completion</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://github.com/scottcheng/si">si - ScoreFour Agent</a></td>
+                        <td>Project for Stanford <span class="course">CS 221: Intro to AI</span> course. An AI agent that plays the board game <a href="https://en.wikipedia.org/wiki/Score_Four">ScoreFour</a> written in Python along with a webapp interface in node.js.</td>
+                        <td>2015 Dec</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/nykh/qiniu-backup-tool">qiniu-backup</a></td>
+                        <td>Developed for my internship in Shanghai. Python tool to synch local directory with remote cloud, with volume reaching the hundreds of giga in many different mime-types. Based on the qiniu API.</td>
+                        <td>2015 June</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/nykh/HearingAidProject">Binaural Hearing Aid</a></td>
+                        <td>Senior Project at UT Austin EE. Collaborated with audiology department to develop a prototype audio transceiver to achieve binaural (two-eared) hearing for patients with one-sided hearing<br>
+                        Developed on a TI omap DSP and launchpads with C++</td>
+                        <td>2015 May</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/nykh/ee445m-robot-team13">Racing Robot</a></td>
+                        <td>Final project for <span class="course">EE 445M: Real Time Embedded OS Lab</span>. A robot caar that runs on top of a self-developed RTOS, drives autonomously by sensing the walls of the track.
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </section>
 
     <section id="experience">
-        <section id="academic-experience">
-        </section>
-        <section id="professional-experience">
-        </section>
+        <div class="container">
+            <div class="row">
+                <div id="professional-experience" class="col-md-6">
+                    <h2>Professional Experience</h2>
+                    <section class="exp-job">
+                        <h3>Backend Engineer Intern</h3>
+                        <span class="exp-job-org">SeekVehic Inc.</span>
+                        <span class="exp-job-duration pull-right">2015 Dec-Present</span>
+                        <ul>
+                            <li>Develop cab-sourcing app backend using node.js on Google Service</li>
+                        </ul>
+                    </section>
+
+                    <section class="exp-job">
+                        <h3>Software Engineer Intern</h3>
+                        <span class="exp-job-org">YewWah Education, Shanghai</span>
+                        <span class="exp-job-duration pull-right">2015 June-2015 Aug</span>
+                        <ul>
+                            <li>Developed application to synchronize large amount of data for cloud storage under supervision of network engineer</li>
+                            <li>Devised video-sharing site solution for educational purpose</li>
+                            <li>Helped modernize content management system</li>
+                            <li>Experienced development for scales</li>
+                        </ul>
+                    </section>
+
+                    <section class="exp-job">
+                        <h3>Support Engineer Intern</h3>
+                        <span class="exp-job-org">Philips Medical System, China</span>
+                        <span class="exp-job-duration pull-right">2014 July-2014 Aug</span>
+                        <ul>
+                            <li>visited hospitals and assisted support engineers in troubleshooting medical devices</li>
+                            <li>Practiced interpersonal skills and client relations at the hospitals</li>
+                        </ul>
+                    </section>
+                </div>
+
+                <div id="academic-experience" class="col-md-6">
+                    <h2>Academic Experience</h2>
+                    <section class="exp-job">
+                        <h3>Teaching Assistant</h3>
+                        <span class="exp-job-org">UT Austin ECE</span>
+                        <span class="exp-job-duration pull-right">2015 Jan-2015 May</span>
+                        <ul>
+                            <li>Assist Prof. Andrea Gerstlauer in <span class="course">EE 445M: Real Time Embedded OS Lab</span></li>
+                            <li>Proctored lab sessions. Answered student questions about Embedded OS projects.</li>
+                            <li>Proofread and proctored exams.</li>
+                            <li>Graded lab reports and exams.</li>
+                            <li>Utilized my skills in Embedded System and operating systems. Involved projects like schedulers, file systems, internet of things, etc.</li>
+                        </ul>
+                    </section>
+                    <section class="exp-job">
+                        <h3>Undergraduate Assistant</h3>
+                        <span class="exp-job-org">UT Austin ECE</span>
+                        <span class="exp-job-duration pull-right">2014 Sep - 2014 Dec</span>
+                        <ul>
+                            <li>Assisted Prof. Brian Evans in <span class="course">EE 445S: Digital Signal Processing Lab</span></li>
+                            <li>Graded homework, proofread solution including DSP theory and MATLAB code</li>
+                            <li>Refreshed my understanding of Digital Signal Processing and strengthened my Matlab debugging techniques.</li>
+                        </ul>
+                    </section>
+                    <section class="exp-job">
+                        <h3>Undergraduate Assistant</h3>
+                        <span class="exp-job-org">UT Austin ECE</span>
+                        <span class="exp-job-duration pull-right">2014 Jan - 2014 Dec</span>
+                        <ul>
+                            <li>Assisted two different professors for <span class="course">EE 438: Microelctronics</span> course</li>
+                            <li>Graded homework, generate solution manuals. Proctored exams.</li>
+                            <li>Solidified my knowledge about electronic circuits, iterative numeric methods, and professionalism in an academic setting.</li>
+                        </ul>
+                    </section>
+
+                    <section class="exp-job">
+                        <h3>Teaching Assistant</h3>
+                        <span class="exp-job-org">UT Austin ECE</span>
+                        <span class="exp-job-duration pull-right">2013 Sep - 2013 Dec</span>
+                        <ul>
+                            <li>Assisted Prof. Jonathan Valvano and Dr. Ramesh Yerraballi in <span class="course">EE 319K: Intro to Embedded System</span> course</li>
+                            <li>Proctored lab session, held office hours, answered student questions regarding fundamental embedded system projects</li>
+                            <li>Graded homework. Graded lab reports, proctored coding exams</li>
+                            <li>Gained communication skills and professionalism in academic setting.</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="activity">

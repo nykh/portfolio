@@ -1,5 +1,11 @@
 :root {
     background-color: #efefef;
+    padding-top: 50px; /* so that the fixed-top nav doesn't overlap with body*/
+}
+
+header {
+    text-transform: uppercase;
+    background-color: white;
 }
 
 div#about {
