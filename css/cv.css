@@ -8,5 +8,11 @@ header {
     background-color: white;
 }
 
+/* degree format */
+.edu-program { margin-top: 1.5rem; }
+.edu-degree { font: 20px bold sans-serif; }
+.edu-grad-date { font: 15px oblique grey; }
+.edu-institution { font: 18px bold brown; }
+
 /* Job descriptor format */
 .exp-job h3 { display: inline; }
