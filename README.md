@@ -5,6 +5,6 @@ Will be hosted at http://web.stanford.edu/~nykh/
 
 Plan to include
 
-- cv
+- cv: static bootstrap page
 - projects
 - log on study

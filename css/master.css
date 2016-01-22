@@ -1,3 +1,20 @@
 :root {
     background-color: #efefef;
 }
+
+div#about {
+    background-color: #dedede;
+}
+
+div#cover {
+    color: white;
+
+    background-image: url('../img/cover.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#cover h1 {
+    font-weight:500;
+}
