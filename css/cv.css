@@ -17,12 +17,15 @@ header {
 
 /* degree format */
 .edu-program { margin-top: 1.5rem; }
-.edu-degree { font: 20px bold sans-serif; }
-.edu-grad-date { font: 15px oblique grey; }
-.edu-institution { font: 18px bold brown; }
+.edu-degree { font: bold 20px sans-serif; }
+.edu-grad-date { font: oblique 15px; color: grey; }
+.edu-institution { font: bold 18px; color: brown; }
 
 .exp-job h3 {
     margin-top: 0px;
+}
+.exp-job-org {
+    font: bold 20px sans-serif;
 }
 
 .footer {
