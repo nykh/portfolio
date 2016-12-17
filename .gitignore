@@ -1,2 +1,3 @@
 *.xcf
 node_modules
+lib/
